@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Appointment:(Free)</h2>
+
+<table>
+  <tr>
+    <th>DAY</th>
+    <th>7am-9am</th>
+    <th>9am-11am</th>
+    <th>11am-1pm</th>
+    <th>1pm-3pm</th>
+    <th>3pm-5pm</th>
+
+  </tr>
+  <tr>
+    <th>Monday</th>
+    <td><input type="radio" name="Monday" value=7> 1</td>
+    <td><input type="radio" name="Monday" value=9> 2</td>
+    <td><input type="radio" name="Monday" value=11> 3</td>
+    <td><input type="radio" name="Monday" value=1> 4</td>
+    <td><input type="radio" name="Monday" value=3> 5</td>
+ </tr>
+  <tr>
+    <th>Tuesday</th>
+    <td><input type="radio" name="Tuesday" value=7> 1</td>
+    <td><input type="radio" name="Tuesday" value=9> 2</td>
+    <td><input type="radio" name="Tuesday" value=11> 3</td>
+    <td><input type="radio" name="Tuesday" value=1> 4</td>
+    <td><input type="radio" name="Tuesday" value=3> 5</td>
+  </tr>
+  <tr>
+    <th>Wednesday</th>
+    <td><input type="radio" name="Wednesday" value=7> 1</td>
+    <td><input type="radio" name="Wednesday" value=9> 2</td>
+    <td><input type="radio" name="Wednesday" value=11> 3</td>
+    <td><input type="radio" name="Wednesday" value=1> 4</td>
+    <td><input type="radio" name="Wednesday" value=3> 5</td>
+  </tr>
+  <tr>
+    <th>Thursday</th>
+    <td><input type="radio" name="Thursday" value=7> 1</td>
+    <td><input type="radio" name="Thursday" value=9> 2</td>
+    <td><input type="radio" name="Thursday" value=11> 3</td>
+    <td><input type="radio" name="Thursday" value=1> 4</td>
+    <td><input type="radio" name="Thursday" value=3> 5</td>
+  </tr>
+  <tr>
+    <th>Friday</th>
+    <td><input type="radio" name="Friday" value=7> 1</td>
+    <td><input type="radio" name="Friday" value=9> 2</td>
+    <td><input type="radio" name="Friday" value=11> 3</td>
+    <td><input type="radio" name="Friday" value=1> 4</td>
+    <td><input type="radio" name="Friday" value=3> 5</td>
+  </tr>
+  <tr>
+    <th>Saturday</th>
+    <td><input type="radio" name="Saturday" value=7> 1</td>
+    <td><input type="radio" name="Saturday" value=9> 2</td>
+    <td><input type="radio" name="Saturday" value=11> 3</td>
+    <td><input type="radio" name="Saturday" value=1> 4</td>
+    <td><input type="radio" name="Saturday" value=3> 5</td>
+  </tr>
+</table>
+<h3>Select a package:</h3>
+<input type="radio" name="package" value=500>One time assesment only   (INR 500)</br>
+<input type="radio" name="package" value=400>4 weekly sessions   (INR 400/session)</br>
+<input type="radio" name="package" value=300>12 weekly sessions   (INR 300/session)</br>
+<input type="radio" name="package" value=other>Other<input type="text" name="desc">
+<p> Quote will be shared on phone call</p>
+<h3>Quote:</h3>
+<form>
+    <label class="text-align-inline">
+      <input type="text" value="">INR
+    </label></br>
+    <label class="text-align-inline">
+      <input type="text" value="">Paise
+    </label>
+  </form>
+
+<button type="button" class="btn btn-primary">Submit</button>
+</body>
+</html>
